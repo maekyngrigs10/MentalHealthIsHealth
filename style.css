@@ -1,0 +1,92 @@
+/* tags */
+
+body {
+    background-color: #8fc0a9;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3a563f;
+    color:#8fc0a9;
+    padding-left:3em;
+    padding-right:3em;
+    width:62%;
+    text-align: center;
+    font-size: 4em;
+    border-radius: 10px;
+}
+
+main {
+    color:chartreuse;
+    padding-left:3em;
+}
+
+nav {
+    margin-top:2em;
+    color:#3a563f;
+    border-radius: 10px;
+    height:50px;
+    width:80%;
+    background-color: #e8ffec;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+nav img{
+    height:25px;
+    width: 25px;
+    padding:0.5em;
+    float: right;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right:0.5em;
+}
+
+nav li{
+    padding-left:2em;
+    padding-right: 2em;
+}
+
+nav a{
+    text-decoration: none;
+    color:#3a563f;
+}
+
+
+
+footer {
+    border-top:2px solid rgb(138, 106, 80);
+    text-align: center;
+}
+
+/* classes */
+.twothirds {
+    width:66%;
+    height:33%;
+    padding-left: 3em;
+}
+
+
+/* ids */
+
+#mission {
+    background-color: #e8ffec;
+}
+
+nav #herologo {
+    float:left;
+}
+
+/* media */
