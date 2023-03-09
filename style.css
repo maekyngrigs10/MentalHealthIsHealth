@@ -92,6 +92,12 @@ footer {
     padding-right: 3em;
     padding-left: 3em;
     text-align: center;
+    overflow: auto;
+}
+
+footer p {
+    float:left;
+    margin-left:20em;
 }
 
 /* classes */
@@ -137,11 +143,14 @@ footer {
     height:25em;
 }
 
-.twoone .left h2{
+.twoone .left h2,p{
     float:right;
     overflow: auto;
-    padding-right:55px;
+    padding-right:40px;
     padding-left: 0;
+    /* display: flex;
+    flex-direction: column; */
+    width:45%;
 }
 
 .twoone .left img{
