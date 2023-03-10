@@ -25,7 +25,7 @@ h2 {
 }
 
 main {
-    color:#dfdcb2;
+    color:#588157;
     padding-left:3em;
     display: block;
     /* padding-bottom: 15em; */
@@ -262,11 +262,39 @@ nav #herologo {
     box-shadow: 5px 10px #3a563f ;
 }
 
+.verti1 {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size: 1.15em;
+    padding-top:25px;
+    float: left;
+    text-align:center;
+}
+
+.verti2 {
+    writing-mode:vertical-lr;
+    text-orientation: mixed;
+    font-size: 1.15em;
+    padding-top:25px;
+    float: right;
+    text-align:center;
+    color: #588157;
+}
+
 #info img{
     float:left;
     height:100%;
     width:auto;
     padding:5px;
+    border-radius: 15px;
+}
+
+#secondinfo img{
+    float:right;
+    height:100%;
+    width:auto;
+    padding:13px;
+    border-radius: 25px;
 }
 
 .infosections h3{
@@ -290,18 +318,18 @@ nav #herologo {
     row-gap: 2em;
     margin-left: 2em;
     margin-right:7em;
-    height:25em;
+    height:22em;
     /* padding-bottom: 1em; */
     padding-bottom: 2em;
 }
 
-#secondinfo .underinfo img{
+/* #secondinfo .underinfo img{
     float:right;
     height:100%;
     width:auto;
     padding:20px;
     border-radius: 15px;
-}
+} */
 
 #secondinfo .underinfo{
     background-color: #e8ffec;
