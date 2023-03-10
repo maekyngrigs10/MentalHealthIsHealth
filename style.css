@@ -131,8 +131,8 @@ footer p {
 .twoone{
     display: grid;
     grid-template-columns: 1fr 33%;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 1em;
+    grid-template-rows: 130% 130%;
+    row-gap: 2em;
     column-gap: 5em;
     height:10em;
     margin-left: 3em;
@@ -185,7 +185,7 @@ footer p {
     grid-row: 2;
     width:auto;
     /* overflow: auto; */
-    padding:15px;
+    padding:25px;
 }
 
 /* .onethird {
@@ -260,6 +260,10 @@ nav #herologo {
     padding:25px;
     color:#588157;
     box-shadow: 5px 10px #3a563f ;
+}
+h4{
+    width:auto;
+    float:left;
 }
 
 .verti1 {
@@ -372,5 +376,11 @@ nav #herologo {
     font-size: 2.5em;
 }
 
+.flowerhero{
+    height: 155px;
+    width:auto;
+    padding-left:60px;
+    padding-top: 10px;
+}
 
 /* media */
