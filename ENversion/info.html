@@ -22,15 +22,15 @@
             </header>
             <main>
                 <div id="info">
-                    <div class="infoheader" style="grid-column: 1/span 2;grid-row: 1/span 1;">
+                    <div class="infoheader" id="illnesses" style="grid-column: 1/span 2;grid-row: 1/span 1;">
                         <h2>Illnesses</h2>
                     </div>
                     <div class="infosections" style="grid-column: 3/span 1;grid-row: 1/span 2;">
                         <img src="img/flower.png" style="float: right;">
-                        <h6 class="verti1">RESOURCES</h6>
+                        <a href="https://www.cdc.gov/childrensmentalhealth/data.html" target="_blank"  ><h6 class="verti1">RESOURCES</h6></a>
                     </div>
                     <div class="infosections" style="grid-column: 1/span 2;grid-row: 2/span 3;">
-                        <img src="img/men.png">
+                        <img src="img/statue.jpg">
                         <h3>Depression</h3>
                         <div class="scroll" id="infoparts">
                             <p>Depression is a persistent feeling of sadness or loss of interest in activities you would normally enjoy. Most of the time medical professionals will ask the question, “Have these feelings been going on for longer than two weeks?” They ask this because if this feeling lasts longer than two weeks, it might be depression. 2.7 million kids ages 3-17 have diagnosed depression, according to the Center for Disease Control and Prevention. These numbers were taken in 2016-2019, pre-covid.</p>
@@ -38,16 +38,16 @@
                     </div>
                     <div class="infosections" style="grid-column: 3/span 1;grid-row: 3/span 2;">
                         <img src="img/flower.png" style="float: right;">
-                        <h6 class="verti1">COPING</h6>
+                        <h6 class="verti1" onclick="ScrollToCoping()">COPING</h6>
                     </div>
                 </div>
                 <div id="secondinfo">
                     <div class="underinfo" style="grid-column: 1/span 1;grid-row: 1/span 2;">
                         <img src="img/flower.png" style="float: left;">
-                        <h6 class="verti2">RESOURCES</h6>
+                        <a href="https://www.cdc.gov/childrensmentalhealth/data.html" target="_blank"><h6 class="verti2" >RESOURCES</h6></a>
                     </div>
                     <div class="underinfo" style="grid-column: 2/span 2;grid-row: 1/span 4;">
-                        <img src="img/men.png">
+                        <img src="img/anxiety.jpg">
                         <h3>Anxiety</h3>
                         <div class="scroll" id="infoparts">
                             <p style="padding-left:3em;padding-right:5em;float: left;">Anxiety is a common thing most people deal with regularly. There are many different types and everyone handles it and deals with it differently. A study done by the Center for Disease Control and Prevention from 2016-2019 showed that 5.8 million kids ages 3-17 have diagnosed anxiety. (CDC) These numbers were taken pre-covid. Anxiety is not easy to deal with, but there are some things you can try in order to possibly provide some relief. Listening to music, talking with a trusted loved one, or keeping a diary are good things to try.</p>
@@ -58,20 +58,71 @@
                         <h6 class="verti2" style="padding-top: 45px;">MORE</h6>
                     </div>
                 </div>
+                <div id="secondinfo">
+                    <div class="underinfo" style="grid-column: 3/span 1;grid-row: 1/span 2;">
+                        <img src="img/flower.png" style="float: right;">
+                        <a href="https://www.nimh.nih.gov/health/topics/eating-disorders" target="_blank"><h6 class="verti1" >RESOURCES</h6></a>
+                    </div>
+                    <div class="underinfo" style="grid-column: 1/span 2;grid-row: 1/span 4;">
+                        <img src="img/ed.jpg">
+                        <h3>Eating Disorder</h3>
+                        <div class="scroll" id="infoparts" style="width:50%;">
+                            <p>Eating Disorders are very serious illnesses. There are many different types but the commonalities are the disturbances in the eating patterns as well as the thoughts and emotions surrounding those issues. The most common types are anorexia nervosa, bulimia nervosa, and binge eating disorder. Eating disorders are becoming more and more common. These issues can be super hard to deal with, especially when trying to deal with them alone. It is important to reach out and get help. It can be very scary, but it is imperative to get help.</p>
+                        </div>
+                    </div>
+                    <div class="underinfo" style="grid-column: 3/span 1;grid-row: 3/span 2;">
+                        <img src="img/flower.png" style="float: right;">
+                        <h6 class="verti1" onclick="ScrollToCoping()">COPING</h6>
+                    </div>
+                </div>
+                <div id="secondinfo">
+                    <div class="underinfo" style="grid-column: 1/span 1;grid-row: 1/span 2;">
+                        <img src="img/flower.png" style="float: left;">
+                        <a href="https://www.nimh.nih.gov/health/publications/attention-deficit-hyperactivity-disorder-in-children-and-teens-what-you-need-to-know " target="_blank"><h6 class="verti2" >RESOURCES</h6></a>
+                    </div>
+                    <div class="underinfo" style="grid-column: 2/span 2;grid-row: 1/span 4;">
+                        <img src="img/difisbeau.jpg">
+                        <h3>ADHD </h3>
+                        <div class="scroll" id="infoparts">
+                            <p style="padding-left:3em;padding-right:5em;float: left;">Attention Deficit Hyperactivity Disorder  is commonly known as ADHD. ADHD is a developmental disorder which can follow a child into adult years. Inattention, hyperactivity and impulsivity are the three main issues of ADHD. Inattention is the struggle to maintain focus. Not listening closely to small details, or not following through with tasks that require lots of mental effort are both some examples of inattention. Some examples of hyperactivity and impulsivity are fidgeting, talking excessively, and interrupting others. ADHD can make everyday tasks very difficult which is why it is important to seek help if you are struggling with symptoms. </p>
+                        </div>
+                    </div>
+                    <div class="underinfo" style="grid-column: 1/span 1;grid-row: 3/span 2;">
+                        <img src="img/flower.png" style="float: left;">
+                        <h6 class="verti2" style="padding-top: 45px;" onclick="ScrollToCoping()">COPING</h6>
+                    </div>
+                </div>
+                <div id="secondinfo">
+                    <div class="underinfo" style="grid-column: 3/span 1;grid-row: 1/span 2;">
+                        <img src="img/flower.png" style="float: right;">
+                        <a href="https://www.mcleanhospital.org/essential/ocd-kids-teens" target="_blank"><h6 class="verti1" >RESOURCES</h6></a>
+                    </div>
+                    <div class="underinfo" style="grid-column: 1/span 2;grid-row: 1/span 4;">
+                        <img src="img/bebrave.jpg">
+                        <h3 style="font-size: 25px;">Obsessive Compulsive Disorder</h3>
+                        <div class="scroll" id="infoparts" style="width:25em;">
+                            <p>Obsessive Compulsive Disorder is commonly known as OCD. OCD is characterized by unwanted intrusive thoughts that interrupt daily life. These thoughts can lead to anxiety or mental distress, which then can lead to compulsions. These compulsions aim to stop the thoughts or distress. Some examples of compulsions are having to clean things a certain way, rewrite, reread or re-talk, or avoid certain words or numbers due to a negative connotation the person puts upon them. OCD can be very hard to live with due to these compulsions, this is why talking to someone trusted is always a good idea. </p>
+                        </div>
+                    </div>
+                    <div class="underinfo" style="grid-column: 3/span 1;grid-row: 3/span 2;">
+                        <img src="img/flower.png" style="float: right;">
+                        <h6 class="verti1" onclick="ScrollToCoping()">COPING</h6>
+                    </div>
+                </div>
                 <div id="info">
                     <div class="infosections" style="grid-column: 1/span 1;grid-row: 1/span 2;">
                         <img src="img/flower.png" style="float: left;">
-                        <h6 class="verti2">RESOURCES</h6>
+                        <a href="https://linktr.ee/mentalhealthishealth_hosa " target="_blank"><h6 class="verti2" >RESOURCES</h6></a>
                     </div>
-                    <div class="infoheader" style="grid-column: 2/span 2;grid-row: 1/span 1;">
+                    <div class="infoheader" id="coping" style="grid-column: 2/span 2;grid-row: 1/span 1;">
                         <h2>Coping Skills</h2>
                     </div>
                     <div class="infosections" style="grid-column: 1/span 1;grid-row: 3/span 2;">
                         <img src="img/flower.png" style="float: left;">
-                        <h6 class="verti2">ILLNESSES</h6>
+                        <h6 class="verti2" onclick="ScrollToIllnesses()">ILLNESSES</h6>
                     </div>
                     <div class="infosections" style="grid-column: 2/span 2;grid-row: 2/span 3;">
-                        <img src="img/men.png">
+                        <img src="img/coping.jpg">
                         <h3>Coping #1</h3>
                         <div class="scroll" id="infoparts">
                             <p>There are many different things people do to cope with their own mental health. There are things people can try to cope with their own mental health. Everyone is different, so what works for someone, might not work for another person. Reading a book, going on a walk, or listening to music are all things that someone could do to try and take their minds off of the situation, but for long term help things might not be as easy. Journaling can be helpful for long term healing. By journaling, a person can document the things that give them problems. In the future, find ways to deal with those situations. Group therapy or support groups is also another great option. It gives people who are dealing with the same issues a space to freely talk through things. Medication and therapy are also some options. Through therapy, a person can get one on one time with a trained professional. They can give advice on situations, but also provide a safe environment. Medication is another option that can help lessen symptoms. There are many different ways to cope, the most important thing is finding what works for you. </p>
@@ -79,26 +130,7 @@
                     </div>
                     
                 </div>
-                <div id="info">
-                    <div class="infoheader" style="grid-column: 1/span 2;grid-row: 1/span 1;">
-                        <h2>RESOURCES</h2>
-                    </div>
-                    <div class="infosections" style="grid-column: 3/span 1;grid-row: 1/span 2;">
-                        <img src="img/flower.png" style="float: right;">
-                        <h6 class="verti1">COPING</h6>
-                    </div>
-                    <div class="infosections" style="grid-column: 1/span 2;grid-row: 2/span 3;">
-                        <img src="img/men.png">
-                        <h3>A way to help #1</h3>
-                        <div class="scroll" id="infoparts">
-                            <p></p>
-                        </div>
-                    </div>
-                    <div class="infosections" style="grid-column: 3/span 1;grid-row: 3/span 2;">
-                        <img src="img/flower.png" style="float: right;">
-                        <h6 class="verti1">RESOURCES</h6>
-                    </div>
-                </div>
+                
             </main>
             <footer>
                 <small><p>Copyright © Maekyn Grigsby 2023<br>
@@ -106,4 +138,33 @@
 
             </footer>
         </body>
+        <script>
+            window.scroll({
+            top: 2500, 
+            left: 0, 
+            behavior: 'smooth'
+            });
+
+            // Scroll certain amounts from current position 
+            window.scrollBy({ 
+            top: 100, // could be negative value
+            left: 0, 
+            behavior: 'smooth' 
+            });
+
+            // Scroll to a certain element
+            function ScrollToIllnesses() {
+                document.querySelector('#illnesses').scrollIntoView({ 
+                behavior: 'smooth'
+                }) 
+            };
+
+            function ScrollToCoping() {
+                document.querySelector('#coping').scrollIntoView({ 
+                behavior: 'smooth'
+                }) 
+            };
+
+            
+        </script>
     </html>

@@ -1,5 +1,9 @@
 /* tags */
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: #8fc0a9;
     margin-left: auto;
@@ -320,7 +324,7 @@ h4{
 }
 
 #secondinfo img{
-    float:right;
+    float:left;
     height:100%;
     width:auto;
     padding:13px;
@@ -407,6 +411,11 @@ h4{
     width:auto;
     padding-left:60px;
     padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color:#3a563f;
 }
 
 /* media */
